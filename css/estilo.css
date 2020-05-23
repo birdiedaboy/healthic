@@ -149,8 +149,10 @@ footer {
   display: flex;
   justify-content: space-around;
   padding: 50px;
+    box-sizing: border-box;
     z-index: -1;
     color: #59BEC9;
+    width: 100%;
 }
 .mail{
     font-size: 32px;
@@ -186,5 +188,16 @@ footer {
         box-sizing: border-box;
         padding: 3%;
         
+    }
+    footer{
+        flex-direction: column;
+        max-width: 100vw;
+        align-items: center;
+    }
+    .mail{
+        font-size: 20px;
+    }
+    body{
+        min-width: 100%;
     }
   }
