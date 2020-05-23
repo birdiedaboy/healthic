@@ -47,6 +47,7 @@ table {
 /* BIRDIES CODE */
 a{
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
     
 }
 button{
@@ -144,13 +145,19 @@ footer {
   bottom: 0;
   left: 0;
   background: #1B1B1B;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: space-around;
   padding: 50px;
     z-index: -1;
     color: #59BEC9;
 }
 .mail{
     font-size: 32px;
+    font-weight: 500;
+    color: aliceblue;
+    padding-bottom: 5%;
     
+}
+.iconocont{
+    padding-top: 5%;
 }
