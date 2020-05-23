@@ -45,14 +45,24 @@ table {
 
 
 /* BIRDIES CODE */
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18;
+    line-height: 22px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+}
 main{
     display: flex;
     flex-direction: column;
 }
 .hero{
     background-image: url(../img/hero.png);
-    height: 1000px;
-    background-position: center;
+    height: 140vh;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -64,7 +74,21 @@ header{
     justify-content: center;
     padding-top: 15rem;
 }
-.logohero{
-    
+.logohero{   
+}
+.articlehero{
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 15%;
+    color: white;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+.titlehero{
+    padding-bottom: 20px
+}
+.texthero{
     
 }
