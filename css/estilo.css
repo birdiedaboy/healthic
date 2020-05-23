@@ -155,10 +155,16 @@ footer {
 .mail{
     font-size: 32px;
     font-weight: 500;
-    color: aliceblue;
-
-    
+    color: aliceblue;  
 }
 .iconocont{
     padding-top: 5%;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+    .ester{
+        flex-direction: column;
+        padding-bottom: 5%;
+    }
+  }
