@@ -45,6 +45,10 @@ table {
 
 
 /* BIRDIES CODE */
+button{
+    border: none;
+    background-color: rgba(255,255,255,0);
+}
 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -62,7 +66,7 @@ main{
 }
 .hero{
     background-image: url(../img/hero.png);
-    height: 140vh;
+    height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -77,18 +81,67 @@ header{
 .logohero{   
 }
 .articlehero{
+    color: white;
     max-width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding-top: 15%;
-    color: white;
     padding-left: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 .titlehero{
     padding-bottom: 20px
 }
 .texthero{
     
+}
+.downbttn{
+    height: 100%;
+    width:auto;
+    padding-top: 13%;
+    padding-right: 5%;
+}
+.scroll{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.ester{
+    min-width: 100%;
+    display: flex;
+    background-color: white;
+}
+.leftimg{
+    max-width: 40%;
+}
+.imgesteril{
+    max-height: 80%;
+}
+.laprimera{
+    max-width: 60%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.primeratitle{
+    color: #59BEC9;
+    padding-bottom: 5%;
+}
+.primeratext{
+    
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+footer {
+  /* place on the bottom */
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  background: #288790;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+    z-index: -1;
 }
