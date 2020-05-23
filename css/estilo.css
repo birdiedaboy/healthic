@@ -45,6 +45,10 @@ table {
 
 
 /* BIRDIES CODE */
+a{
+    text-decoration: none;
+    
+}
 button{
     border: none;
     background-color: rgba(255,255,255,0);
@@ -129,7 +133,7 @@ header{
     padding-bottom: 5%;
 }
 .primeratext{
-    
+    color: #808080;
 }
 .reverse{
     flex-direction: row-reverse;
@@ -139,9 +143,14 @@ footer {
   position: sticky;
   bottom: 0;
   left: 0;
-  background: #288790;
+  background: #1B1B1B;
   display: grid;
   place-items: center;
   padding: 50px;
     z-index: -1;
+    color: #59BEC9;
+}
+.mail{
+    font-size: 32px;
+    
 }
