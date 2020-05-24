@@ -186,8 +186,16 @@ footer {
     .articlehero{
         min-width: 100%;
         box-sizing: border-box;
-        padding: 3%;
+        padding-right: 8%;
+        padding-left: 8%;
         
+    }
+    .primeratitle{
+        
+    }
+    .primeratext{
+        padding-right: 8%;
+        padding-left: 8%;
     }
     footer{
         flex-direction: column;
