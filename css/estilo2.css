@@ -83,6 +83,7 @@ main{
     justify-content: center;
     padding: 15%;
     background-color: white;
+    z-index: 100;
 }
 .logohero{
     width: 50%;
