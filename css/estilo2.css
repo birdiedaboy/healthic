@@ -153,6 +153,8 @@ main{
 }
 .primeratextb{
     color: white;
+    padding-right: 8%;
+        padding-left: 8%;
 }
 .reverse{
     flex-direction: row-reverse;
