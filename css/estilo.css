@@ -84,7 +84,10 @@ header{
     justify-content: center;
     padding-top: 15rem;
 }
-.logohero{  
+.logohero{
+    width: 40%;
+    height: auto;
+    
 }
 .articlehero{
     color: white;
@@ -175,8 +178,8 @@ footer {
         padding-bottom: 5%;
     }
     .logohero{
-        max-width: 80%;
-        padding-bottom: 30%;
+        width: 80%;
+        padding-bottom: 0%;
     }
     header{
         padding-top: 25%;
