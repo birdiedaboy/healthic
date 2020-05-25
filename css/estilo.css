@@ -46,14 +46,12 @@ table {
 
 
 /* BIRDIES CODE */
+*{
+    box-sizing: border-box;
+}
 a{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    
-}
-button{
-    border: none;
-    background-color: rgba(255,255,255,0);
 }
 p{
     font-family: 'Montserrat', sans-serif;
@@ -70,93 +68,84 @@ main{
     display: flex;
     flex-direction: column;
 }
-.hero{
-    background-image: url(../img/hero.png);
-    height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-    
-}
 header{
-    width: 100vw;
+    width: 100%;
+    min-height: 400px;
     display: flex;
     justify-content: center;
-    padding-top: 15rem;
+}
+.contenedorlogo{
+    background-color: white;
+    z-index: 10;
+    align-self: center;
 }
 .logohero{
-    width: 40%;
-    height: auto;
-    
-}
-.articlehero{
-    color: white;
-    max-width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-top: 15%;
-    padding-left: 5%;
-    padding-bottom: 5%;
-}
-.titlehero{
-    padding-bottom: 20px
-}
-.texthero{
-    
-}
-.downbttn{
-    height: 100%;
-    width:auto;
-    padding-top: 13%;
-    padding-right: 5%;
-}
-.scroll{
-    display: flex;
     width: 100%;
-    justify-content: space-between;
+    height: auto;
 }
-.ester{
+.contenedorservicioqs{
+    display: flex;
+    
+    background-color: #59BEC9;
+    z-index: 10;
+}
+.contenedorservicio{
     display: flex;
     background-color: white;
+    z-index: 10;
 }
-.leftimg{
+.contenedorimagenservicio{
+    height: auto;
     min-width: 40%;
+
 }
-.imgesteril{
+.imgservicio{
     width: 100%;
     height: auto;
 }
-.laprimera{
+.contenedorqs{
+    
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #59BEC9;
+}
+.tituloqs{
+    color: white;
+    padding-bottom: 5%;
+}
+.textoqs{
+    color: white;
+   
+}
+
+.contenedortextoserv{
     
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
 }
-.primeratitle{
+.tituloservicio{
     color: #59BEC9;
     padding-bottom: 5%;
 }
-.primeratext{
+.textoservicio{
     color: #808080;
 }
+
 .reverse{
     flex-direction: row-reverse;
 }
+
 footer {
   /* place on the bottom */
-  position: sticky;
-  bottom: 0;
-  left: 0;
   background: white;
   display: flex;
-    flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   padding: 50px;
-    box-sizing: border-box;
-    z-index: -1;
     color: #59BEC9;
     width: 100%;
+    z-index: 0;
 }
 .mail{
     font-size: 32px;
@@ -164,25 +153,29 @@ footer {
     color: #59BEC9;  
 }
 .iconocont{
-    padding-top: 5%;
+    padding-top: 15%;
+    width: 100%;
 }
 .iconimg{
-    width: 5%;
+    width: 30%;
     height: auto;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-    .ester{
+    .contenedorservicio{
         flex-direction: column;
         padding-bottom: 5%;
+        z-index: 20;
     }
     .logohero{
-        width: 80%;
-        padding-bottom: 0%;
+        width: 90%;
+        height: auto;
     }
     header{
-        padding-top: 25%;
+    }
+    .contenedorlogo{
+        padding: 15%;
     }
     .hero{
           background-position: center;
@@ -198,10 +191,10 @@ footer {
         padding-left: 8%;
         
     }
-    .primeratitle{
+    .tituloservicio{
         
     }
-    .primeratext{
+    .textoservicio{
         padding-right: 8%;
         padding-left: 8%;
     }
@@ -209,16 +202,27 @@ footer {
         flex-direction: column;
         max-width: 100vw;
         align-items: center;
+        z-index: 0;
     }
     .mail{
         font-size: 20px;
     }
     .iconocont{
-        width: 100%;
+        margin-right: 60%;
         
     }
     .iconimg{
-        width: 10%;
+        width: 15%;
         height: auto;
     }
+    .reverseb{
+    flex-direction: column-reverse;
+}
+    .contenedorqs{
+        padding-bottom: 5%;
+    }
+    .contenedortextoserv{
+        padding-bottom: 5%;
+    }
+    
   }
