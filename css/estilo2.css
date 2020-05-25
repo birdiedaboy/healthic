@@ -157,6 +157,7 @@ main{
 .reverse{
     flex-direction: row-reverse;
 }
+
 footer {
   /* place on the bottom */
   position: sticky;
@@ -192,8 +193,8 @@ footer {
         padding-bottom: 5%;
     }
     .logohero{
-        max-width: 80%;
-        padding-bottom: 30%;
+        width: 90%;
+        height: auto;
     }
     header{
         padding-top: 25%;
@@ -232,7 +233,19 @@ footer {
         
     }
     .iconimg{
-        width: 50%;
+        width: 15%;
         height: auto;
+    }
+    .reverseb{
+    flex-direction: column-reverse;
+}
+    .laprimerab{
+        padding-bottom: 5%;
+    }
+    .laprimera{
+        padding-bottom: 5%;
+    }
+    .contlogo{
+        padding: 15%;
     }
   }
