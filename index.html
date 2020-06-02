@@ -4,26 +4,36 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Estirilización de equipo medico y Bio-Desinfección de espacios.">
+    <meta name="description" content="Esterilización de equipo médico y Bio-Desinfección de espacios.">
     <meta name="author" content="Healthic">
     <meta property="og:image" content="http://www.healthic.com.mx/img/Ogimage.jpg" />
     <title>Healthic</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
     <main>
-<header>
-            <nav>
-            </nav>
+        <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#QS" onclick="closeNav()">Quiénes Somos</a>
+    <a href="#CE" onclick="closeNav()">Central de Esterilización</a>
+    <a href="#SBD" onclick="closeNav()">Servicio de Bio-Desinfección</a>
+    <a href="#CT" onclick="closeNav()">Contacto</a>
+  </div>
+</div>
+<span class="navbtn" onclick="openNav()">&#9776;</span>
+        <header>
+            
             <figure class="contenedorlogo">
-            <img src="img/logo-color.png" class="logohero">
-                </figure>
-    </header>
-        <section class="contenedorservicioqs reverseb">
+                <img src="img/logo-color.png" class="logohero">
+            </figure>
+        </header>
+        <section class="contenedorservicioqs reverseb" id="QS">
                 <figure class="contenedorimagenservicio">
                     <img src="img/f1opb.png" class="imgservicio">
                 </figure>
@@ -37,7 +47,7 @@
                 </article>
             
             </section>
-        <section class="contenedorservicio reverseb reverse">
+        <section class="contenedorservicio reverseb reverse" id="CE">
                 <figure class="contenedorimagenservicio">
                     <img src="img/esterilizacion.png" class="imgservicio">
                 </figure>
@@ -60,7 +70,7 @@
                 </article>
             
             </section>
-        <section class="contenedorservicio  reverseb">
+        <section class="contenedorservicio reverseb" id="SBD">
                 <figure class="contenedorimagenservicio">
                     <img src="img/biodesinfectacion.png" class="imgservicio">
                 </figure>
@@ -87,7 +97,7 @@
             
             </section>
         <footer>
-            <address>
+            <address id="CT">
                 <a class="mail" href="mailto:info@healthic.com.mx">info@healthic.com.mx</a>
                 <br>
                 <br>
@@ -102,6 +112,6 @@
   
         </footer>
     </main>
-  <script src="js/scripts.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
