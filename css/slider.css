@@ -28,6 +28,10 @@ margin-right: 0;
 .nav-link{
     color: white!important;
 }
+
+.compressed{
+    background: #6dcc7c;
+}
 .carousel-item{
     max-height: 100vh;
 }
