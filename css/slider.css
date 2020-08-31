@@ -38,9 +38,15 @@ body{
     overflow-x: hidden;
     font-family: 'wotfardregular';
 }
+/*
+img{
+    width: 100%;
+    height: auto;
+}
+*/
 h1{
     padding-bottom: 5%;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: 'wotfardmedium';
 }
 h3{
@@ -52,23 +58,29 @@ h3{
     width: 100%;
     padding: 0;
 }
-.navbar-brand img{
-    height: 12rem
+.navbar-brand-imagen{
+    height: 13rem
 }
 .navbar-brand{
-    padding-top: 0;
-padding-bottom: 0;
-margin-right: 0;
+    margin: 0;
+    padding: 0;
 }
 .navbar-nav li{
     padding-right: 3rem;
 }
 .nav-link{
-    color: white!important;
+    color: white !important;
+}
+.colorlink{
+    color: #59B4BF !important;
 }
 
 .compressed{
-    background: #6dcc7c;
+    background: white;
+    color: aqua !important;
+}
+.enmobil{
+    height: 8rem;
 }
 .carousel-item{
     max-height: 100vh;
