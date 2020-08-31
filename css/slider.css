@@ -46,6 +46,7 @@ body{
 img{
     width: 100%;
     height: auto;
+object-fit: cover;
 }
 */
 
@@ -57,6 +58,10 @@ h1{
 h3{
     font-size: 36px;
     font-family: 'wotfardmedium';
+}
+hr{
+    border-top: 1.5px solid #666666;
+    width: 80%;
 }
 .navbar{
     z-index: 1000;
@@ -242,6 +247,8 @@ footer{
 .imgfooter{
     grid-row: 7;
     grid-column: span 2;
+    justify-self: start;
+    align-self: center;
 }
 aside{
     min-width: 50%;
