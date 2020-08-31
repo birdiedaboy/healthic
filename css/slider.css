@@ -420,6 +420,18 @@ address{
     nav{
         position: relative!important;
     }
+    .carousel-caption{
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    text-align: left;
+}
+    .carousel-caption h1{
+        font-size: 1.8rem;
+    }
+    .QS{
+        grid-template-columns: 1fr;
+    }
     .QS-Azul{
     background: #59BEC9;
     padding: 5%;
