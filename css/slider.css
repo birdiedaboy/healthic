@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'wotfardregular';
+    src: url('wotfard-regular-webfont.eot');
+    src: url('wotfard-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('wotfard-regular-webfont.woff2') format('woff2'),
+         url('wotfard-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'wotfardsemibold';
+    src: url('wotfard-semibold-webfont.eot');
+    src: url('wotfard-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('wotfard-semibold-webfont.woff2') format('woff2'),
+         url('wotfard-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
 	margin: 0;
 }
@@ -5,9 +27,16 @@ body{
     width: 100vw;
     height: 100%;
     overflow-x: hidden;
+    font-family: 'wotfardregular';
+}
+h1{
+    padding-bottom: 5%;
+    font-size: 4rem;
+    font-family: 'wotfardsemibold';
 }
 h3{
     font-size: 36px;
+    font-family: 'wotfardsemibold';
 }
 .navbar{
     z-index: 1000;
@@ -53,10 +82,7 @@ margin-right: 0;
     width: 50%;
     text-align: left;
 }
-h1{
-    padding-bottom: 5%;
-    font-size: 4rem;
-}
+
 button{
     background-color: #59B4BF;
     border: none;
@@ -90,7 +116,7 @@ button{
 .texto{
     grid-area: texto;
     padding-right: 20%;
-    font-size: 20px;
+    font-size: 16px;
 }
 .boton{
     grid-area: boton;
