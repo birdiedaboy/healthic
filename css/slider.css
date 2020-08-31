@@ -19,7 +19,16 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'wotfardmedium';
+    src: url('wotfard-medium-webfont.eot');
+    src: url('wotfard-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('wotfard-medium-webfont.woff2') format('woff2'),
+         url('wotfard-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
+}
 *{
 	margin: 0;
 }
@@ -32,11 +41,11 @@ body{
 h1{
     padding-bottom: 5%;
     font-size: 4rem;
-    font-family: 'wotfardsemibold';
+    font-family: 'wotfardmedium';
 }
 h3{
     font-size: 36px;
-    font-family: 'wotfardsemibold';
+    font-family: 'wotfardmedium';
 }
 .navbar{
     z-index: 1000;
