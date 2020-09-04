@@ -108,11 +108,29 @@ hr{
     align-items: flex-end;
     margin: 0;
 }
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color: #E1451B !important;
+}
 .carousel-caption{
     top: 40%;
     left: 5%;
     width: 50%;
     text-align: left;
+}
+.SERV .carousel-indicators{
+    flex-direction: row;
+    bottom: -15%;
+    left: 55%;
+    width: 35%;
+    justify-content: space-evenly;
+}
+.SERV .carousel-indicators li{
+    background-color: gray;
 }
 .btnclaro{
     background-color: #59B4BF;
