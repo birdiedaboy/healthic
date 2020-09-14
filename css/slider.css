@@ -183,6 +183,9 @@ button{
     color: white;
     position: relative;
 }
+.fotoQS{
+    width: 80%;
+}
 .titulo{
     align-self: end;
     grid-area: titulo;
