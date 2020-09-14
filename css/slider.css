@@ -69,7 +69,7 @@ hr{
     padding: 0;
 }
 .navbar-brand-imagen{
-    height: 13rem
+    height: 10rem
 }
 .navbar-brand{
     margin: 0;
@@ -131,6 +131,14 @@ hr{
 }
 .SERV .carousel-indicators li{
     background-color: gray;
+}
+.SERV .carousel-control-next, .SERV .carousel-control-prev{
+    bottom: -19%;
+    opacity: 1;
+}
+.SERV .carousel-control-next-icon, .SERV .carousel-control-prev-icon{
+    color: gray;
+    
 }
 .btnclaro{
     background-color: #59B4BF;
