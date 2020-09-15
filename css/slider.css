@@ -276,10 +276,10 @@ footer{
     color: white;
 }
 .imgfooter{
-    grid-row: 7;
-    grid-column: span 2;
-    justify-self: start;
-    align-self: center;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 aside{
     min-width: 50%;
@@ -318,12 +318,15 @@ address{
     margin-top: 3%;
     
 }
+.linkfoot{
+    color: white;
+}
 .socialicons{
     height: 20px;
     grid-column: 1/2;
     grid-row: 6;
     display: flex;
-    fill:#666;
+    fill: white;
 }
 
 .bread{
