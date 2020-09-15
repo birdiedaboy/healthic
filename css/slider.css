@@ -395,7 +395,7 @@ address{
     padding: 5% 10% 5% 10%;
     display: grid;
     grid-template-columns: 1.2fr 1fr;
-    grid-column-gap: 5%;
+    grid-column-gap: 8%;
     position: relative;
 }
 
