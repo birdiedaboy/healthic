@@ -101,7 +101,7 @@ hr{
     padding: 2%;
     color: white;
     height: 50px;
-    width: 20%;
+    width: 30%;
 }
 .carousel-item{
 }
@@ -377,6 +377,7 @@ address{
     grid-template-columns: 1fr;
     grid-row-gap: 1em;
     position: relative;
+    width: 100%;
 }
 .svgIZQ{
     position: absolute;
@@ -510,6 +511,49 @@ address{
     color: white;
     padding-bottom: 5%;
 }
+.comoResuelve{
+    padding: 5% 10% 5% 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    width: 100%;
+}
+.comoResuelve h3{
+    
+    padding-bottom: 3%;
+}
+.comoResuelve h4{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.certificadoFases{
+    display: grid;
+    grid-template-columns: 1fr .7fr 1fr;
+    grid-column-gap: 50px;
+}
+.servCERT{
+    display: flex;
+    color: #59B2BD;
+}
+.imgCERT{
+    padding-right: 5%;
+    object-fit: contain;
+}
+.ModeloG{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+.gestMod{
+    display: flex;
+    flex-direction: column;
+    color: #59B2BD;
+}
+.imgGEST{
+    object-fit: contain;
+}
+
 @media only screen and (max-width: 800px) {
   .navbar-brand {
     display: none;
