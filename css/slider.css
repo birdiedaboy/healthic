@@ -474,6 +474,19 @@ address{
 .bredtitulo{
     font-family: 'wotfardsemibold';
 }
+
+.ventajas{
+    grid-column: span 2;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.tituloVentajas{
+    padding-bottom: 3%;
+}
+.levantamiento{
+    grid-column: span 2;
+    padding-bottom: 5%;
+}
 @media only screen and (max-width: 800px) {
   .navbar-brand {
     display: none;
