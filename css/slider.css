@@ -92,6 +92,9 @@ hr{
 .colorlink{
     color: #59B4BF !important;
 }
+li a:hover{
+    border-bottom: 3px solid #EB451B;
+}
 
 .compressed{
     background: white;
