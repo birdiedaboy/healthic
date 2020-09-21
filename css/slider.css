@@ -139,6 +139,8 @@ hr{
     width: 50%;
     text-align: left;
 }
+/*Sacar las bolitas para abajo de el slider*/
+/*
 .SERV .carousel-indicators{
     flex-direction: row;
     bottom: -15%;
@@ -146,13 +148,17 @@ hr{
     width: 35%;
     justify-content: space-evenly;
 }
+*/
 .SERV .carousel-indicators li{
     background-color: gray;
 }
+/*Intento de Sacar los controles*/
+/*
 .SERV .carousel-control-next, .SERV .carousel-control-prev{
     bottom: -19%;
     opacity: 1;
 }
+*/
 .SERV .carousel-control-next-icon, .SERV .carousel-control-prev-icon{
     color: gray;
     
