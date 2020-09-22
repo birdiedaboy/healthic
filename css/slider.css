@@ -216,7 +216,7 @@ li a:hover{
     border-radius: 1em;
     background-color: rgba(0, 0, 0, 0.3);
     transform: scaleY(0);
-    transform-origin: top;
+/*    transform-origin: left;*/
     transition: transform 100ms ease-in;
     
     z-index: -1;
