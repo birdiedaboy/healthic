@@ -132,6 +132,7 @@ li a:hover{
     color: white;
     height: 50px;
     width: 30%;
+    text-align: center;
 }
 .carousel-item{
 }
@@ -272,7 +273,7 @@ button{
     width: 100%;
     
     grid-template-areas:
-        'titulo .'
+        'titulo foto'
         'texto foto'
         'boton foto';
     padding: 3% 10% 1% 10%;
@@ -304,10 +305,12 @@ button{
 }
 .foto{
     grid-area: foto;
+    align-self: center;
     
 }
 .Historia h3{
     margin-bottom: 5%;
+    color: #59B4BF;
 }
 .SERV{
     display: grid;
@@ -503,6 +506,7 @@ address{
     grid-template-columns: 1.2fr 1fr;
     grid-column-gap: 8%;
     position: relative;
+    color: #808080;
 }
 
 .sliderHistoria{
@@ -613,6 +617,7 @@ address{
     grid-template-columns: 1fr;
     position: relative;
     width: 100%;
+    color: #808080;
 }
 .comoResuelve h3{
     
@@ -640,6 +645,19 @@ address{
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 50px;
 }
+.ModeloG > .gestMod h5{
+    min-height: 10%;
+    
+}
+.ModeloG > .gestMod p{
+    margin: 2em 0;
+    
+}
+.ModeloG > .gestMod .imgGEST{
+    object-fit: contain;
+    min-height: 40%;
+    
+}
 
 .gestMod{
     display: flex;
@@ -655,7 +673,24 @@ address{
     display: none;
   }
     nav{
-        position: relative!important;
+        position: sticky !important;
+        top: 0;
+        display: flex;
+        justify-content: center !important;
+        height: 5rem;
+        background-color: #FFF;
+    }
+    .navbar-nav{
+        align-items: center;
+          background-color: #FFF;
+    }
+    .navbar-nav li{
+        padding-right: 0;
+    }
+    .nav-link{
+        color: #59B4BF !important;
+        text-align: center !important;
+        margin-right: 0;
     }
     .carousel-caption{
     top: 10%;
@@ -712,13 +747,27 @@ address{
     }
     .QS-Azul{
     background: #59BEC9;
-    padding: 5%;
+    padding: 5% 10% 5% 10%;
     color: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 1em;
 }
+    .certificadoFases{
+        grid-template-columns: 1fr;
+    }
+    .ModeloG{
+        grid-template-columns: 1fr;
+    }
     .Historia{
         grid-template-columns: 1fr;
     }
+    .ventajas{
+        grid-column: span 1;
+    }
+    .levantamiento{
+        grid-column: span 1;
+    }
+    .servCERT{
+    flex-direction: row;
 }
