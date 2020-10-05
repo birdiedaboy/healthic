@@ -136,7 +136,13 @@ li a:hover{
 }
 .carousel-item{
 }
-
+.vimeo-wrapper{
+    width: 100vw!important;
+    height: 56.25vw!important;
+    display: block;
+    top: 50%;
+    left: 50%;
+}
 .carousel-control-next, .carousel-control-prev{
     top: 80%;
     
