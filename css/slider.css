@@ -452,6 +452,7 @@ address{
     grid-column: span 1;
     grid-row: 3;
     display: flex;
+    justify-content: space-around;
     fill: white;
     width: 50%;
 }
