@@ -136,6 +136,10 @@ li a:hover{
 }
 .carousel-item{
 }
+.carBD{
+    max-height: 30em;
+    overflow: hidden;
+}
 .vimeo-wrapper{
     width: 100vw!important;
     height: 56.25vw!important;
@@ -164,7 +168,7 @@ li a:hover{
 }
 .carousel-caption{
     top: 40%;
-    left: 5%;
+    left: 10%;
     width: 50%;
     text-align: left;
 }
@@ -502,7 +506,7 @@ address{
 }
 .svgIZQ{
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0%;
     height: 12vw;
     fill: #FFF;
