@@ -298,7 +298,6 @@ button{
 .titulo{
     align-self: end;
     grid-area: titulo;
-    font-size: 2.25rem;
     padding-bottom: 5%
 }
 .texto{
