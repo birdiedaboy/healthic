@@ -452,11 +452,12 @@ address{
     grid-row: 3;
     display: flex;
     justify-content: space-between;
-    fill: white;
+    fill: #FFF;
     width: 50%;
 }
 .socialicons svg{
     height: 100%;
+    fill: #FFF;
 
     
 }
