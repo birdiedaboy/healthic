@@ -129,7 +129,6 @@ li a:hover{
 }
 .botonLink{
     background-color: #59B4BF;
-    background-color: #59B4BF;
     border: none;
     border-radius: 1em;
     padding: 0.75rem 1rem;
@@ -174,6 +173,9 @@ li a:hover{
     left: 10%;
     width: 50%;
     text-align: left;
+}
+.bgcarouselintro{
+    background-color: #59B4BF;
 }
 /*Sacar las bolitas para abajo de el slider*/
 /*
